@@ -1,5 +1,5 @@
 # TCP Chat
-
+[![Build Status](https://travis-ci.com/vnkrtv/go-tcp-chat.svg?branch=master)](https://travis-ci.com/vnkrtv/go-tcp-chat)
 ### Description
 Simple TCP chat with tui.  
 Inspired by: https://medium.com/@nqbao/writing-a-chat-server-in-go-3b61ccc2a8ed
