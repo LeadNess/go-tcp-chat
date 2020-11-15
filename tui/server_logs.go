@@ -1,12 +1,13 @@
 package tui
 
 import (
-	"../server"
 	"fmt"
-	"github.com/marcusolsson/tui-go"
 	"log"
 	"os"
 	"strings"
+
+	"github.com/marcusolsson/tui-go"
+	"github.com/vnkrtv/go-tcp-chat/server"
 )
 
 func ServerLogsUI(chatServer *server.TcpChatServer) tui.UI {

@@ -1,11 +1,12 @@
 package tui
 
 import (
-	"../server"
 	"fmt"
-	"github.com/marcusolsson/tui-go"
 	"log"
 	"os"
+
+	"github.com/marcusolsson/tui-go"
+	"github.com/vnkrtv/go-tcp-chat/server"
 )
 
 var serverLogo = `

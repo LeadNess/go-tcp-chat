@@ -1,11 +1,12 @@
 package client
 
 import (
-	"../protocol"
 	"io"
 	"log"
 	"net"
 	"strings"
+
+	"github.com/vnkrtv/go-tcp-chat/protocol"
 )
 
 type ChatClient interface {

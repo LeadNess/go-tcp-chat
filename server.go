@@ -1,9 +1,10 @@
 package main
 
 import (
-	"./tui"
 	"log"
 	"os"
+
+	"github.com/vnkrtv/go-tcp-chat/tui"
 )
 
 func main()  {

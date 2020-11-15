@@ -1,7 +1,6 @@
 package server
 
 import (
-	"../protocol"
 	"fmt"
 	"io"
 	"log"
@@ -9,6 +8,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/vnkrtv/go-tcp-chat/protocol"
 )
 
 type ChatServer interface {
